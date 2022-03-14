@@ -1,0 +1,18 @@
+var numero = Number(prompt('Ingresa un Núero'))
+var total = numero * 2
+console.log(total)
+
+var numero1 = prompt('Ingresa un número')
+var numero2 = prompt('Ingresa un segundo número') 
+var total = numero1 - numero2
+document.write(total)
+
+var  radio = 5.3
+var area = 3.1416 * (radio**2)
+document.write('El area de un circulo con radio 5.3 es: ', area)
+
+var p = 5
+var D = 8
+var d = 6
+var area = (D * d) / 2
+document.write('El area del rombo es: ', area , 'cm')
