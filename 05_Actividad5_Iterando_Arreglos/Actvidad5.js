@@ -14,7 +14,16 @@ console.log(array2);
 var emptyArray = [];
 var contador = 0;
 while(contador < 5) {
-  contador++;
   emptyArray.push(contador);
+  contador++;
 }
 console.log(emptyArray);
+
+//Ejercicio2 sin push
+var emptyArray1 = [];
+var contador = 0;
+while(contador < 5) {
+  emptyArray1[contador] = contador;
+  contador++;
+}
+console.log(emptyArray1);
