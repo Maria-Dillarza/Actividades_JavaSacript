@@ -20,7 +20,7 @@ do {
 
 //Ejercicio3
 for(var index = 1; index <= 50; index++) {
-    if(index % 2 === 0) {
-        console.log(`${index} es número par`);
+    if(index % 2 !== 0) {
+        console.log(`${index} es número impar`);
     }
 }
