@@ -1,11 +1,7 @@
 
 //Ejercicio1
 console.log('Ejercicio 1') 
-function searchWord(sentence, word) {
-  if(sentence.includes(word)) 
-    return true;
-    else return false;
-}
+const searchWord = (sentence, word) => sentence.includes(word);
 //Test
 const result1 = searchWord('Hola mundo', 'perro')
 console.log(result1);
